@@ -1,0 +1,12 @@
+{
+  "eslint.enable": false,
+  // "eslint.useESLintClass": true,
+  // "eslint.options": {
+  //   "useEslintrc": true,
+  //   "overrideConfig": {
+  //     "rules": {
+  //       "semi": 1
+  //     }
+  //   }
+  // }
+}

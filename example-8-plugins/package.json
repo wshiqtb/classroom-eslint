@@ -1,0 +1,9 @@
+{
+  "name": "example-8-plugins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-plugin-p1": "file:../plugins/plugin-1"
+  }
+}
