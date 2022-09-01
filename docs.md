@@ -338,7 +338,7 @@ module.exports = {
 
 安装vscode的eslint扩展后，编码阶段，IDE就可以以波浪线的形式给我们实时提示报错的地方。
 
-<img src="/Users/qiantianbing/Library/Application Support/typora-user-images/image-20220331103836608.png" alt="image-20220331103836608" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dda6f4f56db347eba53fc7ce99f15a06~tplv-k3u1fbpfcp-watermark.image" alt="image-20220331103836608" />
 
 ### 配置
 
