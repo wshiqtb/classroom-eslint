@@ -346,14 +346,10 @@ vscode-eslint支持很多配置，一般我们不需要做修改，默认即可�
 
 ```json
 {
-	"eslint.enable": Boolean,	// 为工作区文件夹启用/禁用 ESLint。默认启用
- 
+  "eslint.enable": Boolean,	// 为工作区文件夹启用/禁用 ESLint。默认启用
   "eslint.probe": Array,	// ESLint 验证文件的语言类型。如果对探测语言的验证失败，则扩展程序会说静默。默认为["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "markdown"]
-  
-  "eslint.validate": Array, // 和probe类型，废弃了。默认为["javascript", "javascriptreact"]
-  
+  "eslint.validate": Array, // 和probe类似，废弃了。默认为["javascript", "javascriptreact"]
   "eslint.useESLintClass": Boolean,	// 是否使用 ESLint 类 API。和 eslint.options配套使用
-  
   // 用于配置如何使用ESLint 类 API或CLIEngine API启动 ESLint 的选项。https://eslint.org/docs/developer-guide/nodejs-api#cliengine
   "eslint.options": {
     "cwd": String,	// 默认为process.cwd()。工作目录。这必须是绝对路径。
@@ -362,8 +358,7 @@ vscode-eslint支持很多配置，一般我们不需要做修改，默认即可�
     "overrideConfigFile": String,	// 指定一个配置文件。options.overrideConfig会merge此选项
     "useEslintrc": Boolean,	// 默认为true。如果false存在，ESLint 不会加载配置文件（.eslintrc.*文件）。只有构造函数选项的配置是有效的
     "fix": Boolean,	// 自动修复
-  },
-  
+  }
 }
 ```
 
